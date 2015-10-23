@@ -23,7 +23,5 @@ _testmain.go
 *.test
 *.prof
 
-api.web/api.web
-service.auth/service.auth
-service.file/service.file
-service.profile/service.profile
+api.*/api.*
+service.*/service.*
