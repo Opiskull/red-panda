@@ -22,3 +22,8 @@ _testmain.go
 *.exe
 *.test
 *.prof
+
+api.web/api.web
+service.auth/service.auth
+service.file/service.file
+service.profile/service.profile
