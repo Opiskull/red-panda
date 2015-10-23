@@ -1,8 +1,9 @@
-#!/urs/bin/env sh
+#!/bin/bash
 
-#compile the protos
+SHELL := /bin/bash
+
 default:
-	for f in service.*/proto/*.proto; do \
-	echo compiled: $$f; \
-	protoc --go_out=plugins=grpc:. $$f; \
-done
+	./build.sh
+
+build:
+	./build.sh build
